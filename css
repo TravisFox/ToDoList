@@ -1,0 +1,23 @@
+html, body, p          { margin: 0; padding: 0; border: 0; }
+body                   { padding: 2em; font-family: sans-serif; }
+
+table                  { border-collapse: collapse; border: 2px solid black; }
+table a                { color: black; text-decoration: none; }
+
+th                     { background-color: #ccc; }
+th, td                 { padding: 0.25em 0.35em; border-bottom: 1px solid #888; }
+td                     { border-right: 1px solid #ccc; }
+
+tr.complete         td { background-color: #bfb; }
+tr.deleted          td { background-color: #fbb; }
+tr.complete.deleted td { background-color: #880; }
+
+#adder                 { margin-top: 1em; text-align: right; }
+
+#newDataBox            { position: fixed; top: 0; right: 0; width: 16em; padding: 1em; background-color: orange; }
+label                  { padding: 0.1em; display: block; }
+label span             { display: inline-block; width: 2.8em; }
+
+#tops input            { width: 15em; }
+
+#footer                { position: fixed; bottom: 0; left: 0; right: 0; padding: 0.5em; background-color: #aaa; }
